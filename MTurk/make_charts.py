@@ -53,7 +53,7 @@ def bar_plot():
     plt.ylabel('Score')
     plt.xticks([r + bar_width / 2 for r in range(len(b1))], ['All', 'Over 1 year', 'Less than 1 year'])
     plt.legend(loc='upper left')
-    plt.savefig('bar_before_after.png', bbox_inches='tight')
+    plt.savefig('bar_before_after.pdf', bbox_inches='tight')
     plt.close()
 
 if __name__ == '__main__':
