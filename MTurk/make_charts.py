@@ -47,8 +47,10 @@ def bar_plot():
     r1 = np.arange(len(b1))
     r2 = [x + bar_width for x in r1]
 
-    plt.bar(r1, b1, color='dimgray', width=bar_width, label='Before', yerr=e1)
-    plt.bar(r2, b2, color='lightgray', width=bar_width, label='After', yerr=e2)
+    # plt.bar(r1, b1, color='dimgray', width=bar_width, label='Before', yerr=e1)
+    # plt.bar(r2, b2, color='lightgray', width=bar_width, label='After', yerr=e2)
+    plt.bar(r1, b1, color='dodgerblue', width=bar_width, label='Before', yerr=e1)
+    plt.bar(r2, b2, color='orange', width=bar_width, label='After', yerr=e2)
     plt.xlabel('Examinees')
     plt.ylabel('Score')
     plt.xticks([r + bar_width / 2 for r in range(len(b1))], ['All', 'Over 1 year', 'Less than 1 year'])
