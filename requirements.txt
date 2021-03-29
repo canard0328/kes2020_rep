@@ -23,7 +23,7 @@ nose==1.3.7
 numpy==1.16.4
 pandas==0.24.2
 pkginfo==1.5.0.1
-Pygments==2.5.2
+Pygments==2.7.4
 pylint==2.4.3
 pyparsing==2.4.4
 python-dateutil==2.8.1
